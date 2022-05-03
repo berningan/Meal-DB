@@ -1,0 +1,92 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+  background-image: url(../img/bg\ table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1,h2,h3,p{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  width: 50%;
+}
+p{
+  font-size: 1.2rem;
+}
+
+input{
+  height: 36px;
+  width: 65%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button{
+  height: 36px;
+  width: 30%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.head-container{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100px;
+  background-color: rgba(0, 0, 0, .5);
+}
+.input-container{
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+.results-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, .5);
+}
+.dish-container{
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+.img-container{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.instructions-container{
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
